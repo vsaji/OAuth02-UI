@@ -1,0 +1,126 @@
+<!doctype html>
+ 
+<html>
+ 
+<head>
+ 
+<meta charset="utf-8">
+ 
+<title>OAuth 2.0 Management Console</title>
+ 
+<link href="style.css" rel="stylesheet" type="text/css">
+ 
+    <script type="application/javascript" src="json2.js"></script>
+ 
+ <script data-require="jquery@3.0.0" data-semver="3.0.0" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.js"></script>
+ 
+  <script type="application/javascript" src="script.js"></script>
+ 
+
+ 
+</head>
+ 
+
+ 
+<body>
+ 
+<div class="headerContainder">
+ 
+<span class="pageTitle">OAuth 2.0 Management Console</span>
+ 
+</div>
+ 
+<div class="menuContainer"><a href="regClient.htm">Register Client</a> | <a href="scope.htm">Scope</a> | Generate Token | Help</div>
+ 
+<div class="userInfo">Saji Venugopalan | Admin </div>
+ 
+<div class="logoutBtn">Logout </div>
+ 
+
+ 
+
+ 
+<div class="scope_container">
+ 
+
+ 
+    <form id="scope" name="reg">
+ 
+      <div class="header">
+ 
+        <h3>Define Scope</h3>
+ 
+      </div>
+ 
+        
+ 
+        <div class="sep"></div>
+ 
+
+ 
+        <div class="inputs">
+ 
+        
+ 
+            <input type="text" placeholder="Scope" name="scope"/>
+ 
+            <input type="text" placeholder="Scope Description"  name="description"/>
+ 
+            <input type="text" placeholder="Client Credential Expiry" name="cc_expires_in"/>
+ 
+            <input type="text" placeholder="Password Expiry" name="pass_expires_in" />
+ 
+            <input type="text" placeholder="Refresh Expiry" name="refresh_expires_in"/>
+ 
+            
+ 
+            <a id="submit" href="#">Define Scope</a>
+ 
+        
+ 
+        </div>
+ 
+
+ 
+    </form>
+ 
+
+ 
+</div>
+ 
+
+ 
+<div id="resultContainer">
+ 
+<div class="header">
+ 
+            <h3>Response</h3>
+ 
+        </div>
+ 
+        
+ 
+        <div class="sep"></div>
+ 
+        <div class="result">
+ 
+          <div id="response"></div>
+ 
+        </div>
+ 
+</div>
+ 
+
+ 
+
+ 
+
+ 
+</body>
+ 
+</html>
+ 
+
+First Commit
+
+Work in progress
